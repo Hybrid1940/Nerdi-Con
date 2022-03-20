@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" content="width=device-width, initial-scale=1" name="viewport" />
+        <link namme="viewport" rel="shortcut icon" href="LogoCircle.png">
+        <title>NerdiCon 2022</title>
+        <link rel="stylesheet" href="TSA.css">
+    </head>
+    <body>
+    	<header>
+            <div id="hc" class="cent1">
+        		<a href="Index.html"><img class="corner_logo" alt="Company Logo" src="Web_logo.png"></a>
+                <label for="hamburger" id="hamlabel">&#9776;</label>
+                <input type="checkbox" id="hamburger"/>
+                <nav>
+        			<div class="dropdown">
+      					<a href="BetterE.html"><button id="Everyone" class="dropbtn">Nerdi Fun for Everyone</button></a>
+      					<div class="dropdown-content" id="Edrop">
+        					<a class="sub DE" href="BetterE.html#about_us">Girls</a>
+                            <a class="sub DE" href="BetterE.html#third_layer">Families</a>
+                            <a class="sub DE" href="BetterE.html#Facilities">Sponsors</a>
+                            <a class="sub DE" href="BetterE.html#fourth_layer">Staff</a>
+      					</div>
+    				</div>
+    				<div class="dropdown">
+      					<a href="BetterW.html"><button id="Answers" class="dropbtn">A Nerdi Origin Story</button></a>
+      					<div class="dropdown-content" id="Wdrop">
+        					<a class="sub" href="BetterW.html#about_us">Our Company</a>
+                            <a class="sub" href="BetterW.html#third_layer">Our Solution</a>
+                            <a class="sub" href="BetterW.html#fourth_layer">Our Convention</a>
+      					</div>
+    				</div>
+    				<div class="dropdown">
+      					<a href="BetterV.html"><button id="Value" class="dropbtn">The Nerdi Details</button></a>
+      					<div class="dropdown-content" id="Vdrop">
+        					<a class="sub" href="BetterV.html#about_us">Contests & Workshops</a>
+                            <a class="sub" href="BetterV.html#third_layer">Speakers & Pros</a>
+                            <a class="sub" href="BetterV.html#fourth_layer">Convention Schedule </a>
+      					</div>
+    				</div>
+    				<a href="login.html"><button class="butt" id="login">
+          				Login
+        			</button>
+                    </a>
+                    <a href="sources.html">
+        			<button class="butt" id="reg">
+          				Register
+        			</button>
+                    </a>
+        		</nav>
+                <script type="text/javascript">
+                    document.getElementById("hamburger").onclick = function(){
+                      document.getElementById("hamlabel").innerHTML = this.checked ? "X" : "&#9776;" ;
+                      document.getElementById("Everyone").style.display = this.checked ? "block" : "none" ;
+                      document.getElementById("Answers").style.display = this.checked ? "block" : "none" ;
+                      document.getElementById("Value").style.display = this.checked ? "block" : "none" ;
+                      document.getElementById("login").style.display = this.checked ? "block" : "none" ;
+                      document.getElementById("reg").style.display = this.checked ? "block" : "none" ;
+                    };
+                </script>
+            </div>
+    	</header>
+
+
+        <div id="layer1">
+            <div id="lc" class="cent1">
+            	<div id="top_left">
+                    <br>
+                    <br>
+                    <br>
+            		<h1>A Safe Space for <br>Girls to <span class="blue">Geek Out</span></h1>
+            		<h3>The First-Ever, Free, Virtual, and <br>Family-Friendly Comic Convention for Girls!</h3>
+            		<a href="sources.html"><button class="button" id="sign2">
+              			&emsp;Register&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;>&emsp;
+            		</button>
+                    </a>
+            	</div>
+            </div>
+        </div>
+
+
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <div id="modword">
+                    <aside class="bold"><p>Welcome to the <span class="blue">NerdiCon</span> Website!</p></aside><p>All documentation for this project can be found by clicking the "Sources Used to Create This Website" button in the footer of the site, which is included on every page. To view the sources now, you can click <a href="used.html">here</a>.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="mid">
+            <div class ="cent2">
+                <div id="networka">
+                    <img class="network" src="logoStack.jpg">
+                    <img class="network" id="nsec" src="logoStack2.jpg">
+                </div>
+        	   <div id="more">
+        	       <h2>Join Our Nerdi Family: <span class="blue">1000+</span> Attendees, <span class="blue">500+</span> Families, and Counting</h2>
+                    <button id="bounce">
+        		      <a href="#about_us" id="Learn">Learn More<br>
+                        <img id="bouncepic" src="Arrow.png">
+                    </a>
+                    </button>
+        	   </div>
+            </div>
+        </div>
+
+
+
+    	<div id="about_us">
+            <div id="ac" class="cent2">
+                <div id="ab_content">
+                    <div id="intro">
+                        <h2>Why Attend? <span class="blue">NerdiCon</span><br> is Fun for Everyone</h2>
+                        <h3>Whether you're a girl, part of a family, a potential sponsor,<br> or an industry professional, Nerdi Con is the place for you.<br><br>We're loved by . . .</h3>
+                    </div>
+                    <div id="collage">
+                        <div id="top">
+                            <div id="top_left_corner" class="col">
+                                <img class="collage_img" src="Patient.png" alt="Patients image">
+                                <h4>Girls</h4>
+                                <p>For our thrilling event and a <br>supportive community that's<br> as unique as they are.</p>
+                            </div>
+                            <div id="bottom_left_corner" class="col">
+                                <img class="collage_img" src="sponsor.png" alt="admin image">
+                                <h4>Sponsors</h4>
+                                <p>For the chance to inspire next generation of artists, writers, game designers, actors, directors, and so much more!</p>
+                            </div>
+                        </div>
+                        <div id="bottom">
+                            <div id="top_right_corner" class="col">
+                                <img class="collage_img2" src="family.png" alt="workers image">
+                                <h4>Families</h4>
+                                <p>For the inclusive, wholesome, <br>enjoyable experience that we<br> provide.</p>
+                            </div>
+                            <div id="bottom_right_corner" class="col">
+                                <img class="collage_img2" src="pro.png" alt="facilities image">
+                                <h4>Professionals</h4>
+                                <p>For the opportunity to give<br> back to a group they care<br> so much about.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="BetterE.html">
+                        <button class="button" id="look">
+                            <span id="get">Get Involved: More Info on How-To and Why</span>
+                            <span id="arr">></span>
+                        </button>
+                    </a>
+                </div>
+                <div id="imb">
+                    <img id="fam" src="fun.png">
+                </div>
+            </div>
+    	</div>
+
+
+
+
+    	<div id="third_layer" >
+            <div class="cent2">
+                <div>
+    			    <img id="left" src="question.png">
+                </div>
+        		<div id="right">
+    				<h1>Questions? <span class="blue">Nerdi</span> Girls have the Answers</h1>
+        			<h3>Take a look at the quick version of our answers to commonly asked questions below</h3>
+        			<h4><span class="blue">What's the story?</span> About our company</h4>
+        			<p>As kids, sometimes it's hard for nerdy girls to find other girls with similar interest, discouraging their passion for comics and the media industry on the whole. As adults, we started this company to prevent that from happening</p>
+    				<h4><span class="blue">What do you do?</span> About our solution</h4>
+        			<p>We created the first-ever free, virtual, and family-friendly comic convention for girls! We hope that the event encorages all who attend to keep being themselves and developing their unique interests.</p> 
+                    <h4><span class="blue">What is it like?</span> About our convention</h4>
+        			<p>After you register, you'll be able to login to our site and access the registrant-specific conference video call links. Once on-call, you'll be able to participate in our full schedule of workshops, contests, and panels.</p>
+                    <a href="BetterW.html">
+        				<button id="ver" class="button">
+          				     &emsp;Check Out a More Detailed Version of These Answers &emsp;&emsp;&emsp;>
+        			    </button>
+                    </a>
+        		</div>
+            </div>
+		</div>
+
+
+    	<div id="fourth_layer">
+            <div class="cent2">
+        		<div id="fourth_layer_title">
+                    <br>
+        			<h1> Attend <span class="blue">NerdiCon</span>!</h1>
+        			<h3>It's easy because we're</h3>
+        		</div>
+                <div id="tgroup">
+        			<div class="t" id="t1">
+            			<img id="flex" src="access.gif" alt="Backgrounds">
+            			<p><span class="bold blue">Accessible</span><br>
+            			The convention is free and virtual!</p>
+            		</div>
+        			<div class="t" id="t2">
+            			<img id="medicare" src="fam1.gif" alt="Backgrounds">
+            			<p><span class="bold blue">Inclusive</span><br>
+            			The convention is a fun and safe experience for girls and their families.</p>
+            		</div>
+            		<div class="t" id="t3">
+            			<img id="inter" src="inter.gif" alt="Backgrounds">
+            			<p><span class="bold blue">Interactive</span><br>
+        				The convention has awesome interactive events: workshops, contests, panels, movie nights</p>
+            		</div>
+                </div>
+                <br><br><br>
+                <a href="BetterV.html"><button class="button" id="valbtn">
+                    Learn More
+                </button></a>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="cent2">
+                <div id="contact-sub">
+                    <a href="index.html"><img id="logo2" class="divisions" src="Web_Navy.png"></a>
+                    <a href="Contact.html"><p>Contact</p></a>
+                    <p>Follow Us on Social Media</p>
+                    <a href="Social.html"><img class="social" src="Facebook.png"></a>
+                    <a href="Social.html"><img class="social" src="Twitter.png"></a>
+                    <a href="Social.html"><img class="social" src="Instagram.png"></a>
+                    <a href="Social.html"><img class="social" src="Youtube.png"></a>
+                </div>
+                <div id="everyone-sub">
+                    <a class="divisions" id="BE" href="BetterE.html"><h3>Nerdi Fun for Everyone</h3></a>
+                    <hr id="lbe">
+                    <a class="subc" href="BetterE.html#about_us">Girls</a><br>
+                    <br>
+                    <a class="subc" href="BetterE.html#third_layer">Families</a><br>
+                    <br>
+                    <a class="subc" href="BetterE.html#Facilities">Sponsors</a><br>
+                    <br>
+                    <a class="subc" href="BetterE.html#fourth_layer">Professionals</a><br>
+                </div>
+                <div id="answers-sub">
+                    <a class="divisions" id="BA" href="BetterW.html"><h3>The Nerdi Origin Story</h3></a>
+                    <hr id="lba">
+                    <a class="subc" href="BetterW.html#about_us">Our Company</a><br><br>
+                    <a class="subc" href="BetterW.html#third_layer">Our Solution</a><br><br>
+                    <a class="subc" href="BetterW.html#fourth_layer">Our Convention</a><br><br>
+                    <a href="used.html"><button class="button" id="Sources">&emsp;Sources Used to Create This Website &emsp;&emsp;&emsp;&emsp;&emsp;>&emsp;</button></a><br>
+                </div>
+                <div id="value-sub">
+                    <a class="divisions" id="BV" href="BetterV.html"><h3>The Nerdi Details</h3></a>
+                    <hr id="lbv">
+                    <a class="subc" href="BetterV.html#about_us">Contests & Workshops</a><br><br>
+                    <a class="subc" href="BetterV.html#third_layer">Speakers & Pros</a><br><br>
+                    <a class="subc" href="BetterV.html#fourth_layer">Convention Schedule</a><br>
+                </div>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript">
+            const modal = document.querySelector(".modal");
+            const trigger = document.querySelector(".trigger");
+            const closeButton = document.querySelector(".close-button");
+
+            function toggleModal() {
+                modal.classList.toggle("show-modal");
+            }
+
+            window.onload=function(){
+                closeButton.addEventListener("click", toggleModal);
+            }
+        </script>
+    </body>
+</html>
